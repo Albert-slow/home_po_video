@@ -2,7 +2,7 @@ import telebot
 from telebot import types
 
 my_chat_id = 409251406
-bot = telebot.TeleBot('7104280552:AAE-AYkfWE9NvT9qosUbQ-tEowKwgsQpd64')  #  Создаёт объект бота
+bot = telebot.TeleBot(Token)  #  Создаёт объект бота
 
 @bot.message_handler(commands=['start'])
 def start_message(message):
